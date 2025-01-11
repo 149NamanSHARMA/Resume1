@@ -91,7 +91,7 @@ export function ContactSection() {
           >
             <h3 className="text-xl font-semibold mb-4">Send me an Email</h3>
             <p className="text-muted-foreground mb-6">
-            I&apos;m actively looking for internship opportunities. Click below to send me an email directly!
+            I'm actively looking for internship opportunities. Click below to send me an email directly!
             </p>
             <a 
                 href={gmailComposeUrl}
