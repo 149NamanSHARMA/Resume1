@@ -11,7 +11,7 @@ const teamProjects = [
     role: "Team Leader and Lead Developer",
     tech: ["Motoko", "Blockchain", "JavaScript", "Smart Contracts"],
     githubUrl: "https://github.com/149NamanSHARMA/DVote",
-    imageUrl: "/dvote.PNG"  
+    imageUrl: "/dvote.png"  
   },
   {
     title: "DBank: Decentralized Banking Application",

@@ -11,7 +11,7 @@ const projects = [
     tech: ["Next.js", "MongoDB", "NextAuth", "Tailwind CSS"],
     liveUrl: "https://promptopia-ns.vercel.app/",
     githubUrl: "https://github.com/149NamanSHARMA/Promptopia",
-    imageUrl: "/promptopia.PNG" 
+    imageUrl: "/promptopia.png" 
   },
   {
     title: "Anime Vault",
@@ -19,7 +19,7 @@ const projects = [
     tech: ["Next.js", "Framer Motion", "Shikimori API", "Tailwind CSS"],
     liveUrl: "https://anime-vault-xi-seven.vercel.app/",
     githubUrl: "https://github.com/149NamanSHARMA/Anime_vault",
-    imageUrl: "/anime-vault.PNG"
+    imageUrl: "/anime-vault.png"
   },
   {
     title: "Weather Lookup",
@@ -27,7 +27,7 @@ const projects = [
     tech: ["Next.js", "Weather API", "Tailwind CSS"],
     liveUrl: "https://next-js-weather-ten.vercel.app/",
     githubUrl: "https://github.com/149NamanSHARMA/NextJS-Weather",
-    imageUrl: "/weather-lookup.PNG"
+    imageUrl: "/weather-lookup.png"
   },
   // Add your other projects here
 ]
