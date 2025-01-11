@@ -50,10 +50,10 @@ const SkillCard = ({ category, items, index }: {
 }
 
 export function SkillsSection() {
-  const [ref, inView] = useInView({
+  // const [ref, inView] = useInView({
     
-    threshold: 0.1
-  })
+  //   threshold: 0.1
+  // })
 
   return (
     <section id="skills" className="min-h-screen py-20 px-4 sm:px-6 lg:px-8">

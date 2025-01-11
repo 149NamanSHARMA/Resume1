@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion"
 import { Github, ExternalLink } from "lucide-react"
+import Image from 'next/image'
 
 const projects = [
   {
@@ -42,11 +43,13 @@ const ProjectCard = ({ project }: { project: typeof projects[0] }) => {
     >
       {/* Project Image */}
       <div className="relative h-48 overflow-hidden">
-        <img
-          src={project.imageUrl}
-          alt={project.title}
-          className="w-full h-full object-cover object-center group-hover:scale-110 transition-transform duration-300"
-        />
+      <Image
+        src={project.imageUrl}
+        alt={project.title}
+        width={800}
+        height={400}
+        className="w-full h-full object-cover object-center group-hover:scale-110 transition-transform duration-300"
+      />
         <div className="absolute inset-0 bg-black/30 group-hover:bg-black/40 transition-colors" />
       </div>
 

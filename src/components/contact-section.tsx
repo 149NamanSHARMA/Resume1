@@ -1,7 +1,7 @@
 "use client"
 
 import { motion } from "framer-motion"
-import { Mail, Phone, Github, MapPin, ExternalLink } from "lucide-react"
+import { Mail, Phone, Github, MapPin } from "lucide-react"
 
 export function ContactSection() {
     const email = "namansharma20200@acropolis.in"
@@ -91,7 +91,7 @@ export function ContactSection() {
           >
             <h3 className="text-xl font-semibold mb-4">Send me an Email</h3>
             <p className="text-muted-foreground mb-6">
-              I'm actively looking for internship opportunities. Click below to send me an email directly!
+            I&apos;m actively looking for internship opportunities. Click below to send me an email directly!
             </p>
             <a 
                 href={gmailComposeUrl}
