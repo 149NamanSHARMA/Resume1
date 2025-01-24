@@ -6,20 +6,20 @@ import Image from 'next/image'
 
 const projects = [
   {
-    title: "Promptopia",
-    description: "A full-stack Next.js application for discovering and sharing AI prompts. Features user authentication via NextAuth, CRUD operations, and MongoDB integration.",
-    tech: ["Next.js", "MongoDB", "NextAuth", "Tailwind CSS"],
-    liveUrl: "https://promptopia-ns.vercel.app/",
-    githubUrl: "https://github.com/149NamanSHARMA/Promptopia",
-    imageUrl: "/promptopia.png" 
+    title: "Next-Chan",
+    description: "A modern web development discussion board built with Next.js, featuring responsive design, dark mode support, and comprehensive admin capabilities. Includes thread management, image attachments, and markdown support.",
+    tech: ["Next.js", "TypeScript", "MongoDB", "Tailwind CSS", "JWT", "UploadThing"],
+    liveUrl: "https://next-chan.vercel.app/",
+    githubUrl: "https://github.com/149NamanSHARMA/Next-Chan",
+    imageUrl: "/NextChan.png"
   },
   {
-    title: "Anime Vault",
-    description: "An anime discovery platform with infinite scrolling, built using Next.js and Framer Motion. Integrates with the Shikimori API to display anime in an engaging card layout.",
-    tech: ["Next.js", "Framer Motion", "Shikimori API", "Tailwind CSS"],
-    liveUrl: "https://anime-vault-xi-seven.vercel.app/",
-    githubUrl: "https://github.com/149NamanSHARMA/Anime_vault",
-    imageUrl: "/anime-vault.png"
+    title: "MovieFlix",
+    description: "A Netflix-inspired movie search application built with Next.js and TypeScript. Features include an animated search bar, responsive movie grid, and movie details modal with trailers.",
+    tech: ["Next.js", "TypeScript", "TMDB API", "Framer Motion", "Tailwind CSS"],
+    liveUrl: "https://movie-flix-dusky-nine.vercel.app/",
+    githubUrl: "https://github.com/149NamanSHARMA/Movie-Flix",
+    imageUrl: "/MovieFlix.png"
   },
   {
     title: "Weather Lookup",
